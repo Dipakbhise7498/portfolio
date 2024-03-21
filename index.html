@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipak bhise personal portfolio site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a9c8912f2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+        <!-- <img src="images/u2.png" class="header"> -->
+        <div class="container">
+            <nav>
+                <img src="images/u2.png" class="logo">
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></l  i>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+             <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm<span> Dipak</span> <br>Bhise From Pune</h1>
+             </div>
+        </div>
+     </div>
+     <!-- ----------------------about----- -->
+     <div id="about"> 
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dipak.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Profession:
+                        <p></p>hello,I'm Dipak Bhise From Pathardi Ahmednagar consistently demonstrates professionalism in his interactions and work. He maintains a high level of integrity and reliability in all tasks he undertakes.
+
+                        Expertise: <p></p>Dipak possesses a wealth of expertise in his field. Whether it's in technology, finance, or another domain, he has a deep understanding of the subject matterpments.
+
+                        Leadership: <p></p>Dipak is a natural leader 
+
+                        Problem-solving skills:<p></p> Dipak excels in proallenges with a positive attitude and a strategic mindset. He is adept at identifying issues, 
+                        Collaboration: <p></p>Dipak is a team player who values collaboration and fosters a participation, and leverages the strengths of each team member to achieve success.<p></p>
+
+                        Dipak Bhise is a multifaceted professional known for his unwavering commitment to excellence and innovation. 
+                        Creativity: Dipak brings creativity and innovation to his work, thinking outside the box to generate fresh ideas and solutions. He approaches tasks with a creative mindset, infusing projects with originality </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                         <ul>
+                            
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                            <li><span>App Devlopment</span><br>Building Android/ioS apps</li>
+                         </ul>   
+                        </div>
+                        <div class="tab-contents"id="experience">
+                            <ul>
+                               
+                               <li><span>2024 - current</span><br>UI/UX Design Training at giri's Techhub Pune</li>
+                               <li><span>2022 - 2023</span><br>Start Skill Growth At A TO Z Startup Ahmednagar</li>
+                               <li><span>2020 - 2021</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                               <li><span>2020</span><br>Internship at ekart eCommerce. </li>
+                            </ul>   
+                           </div>
+                           <div class="tab-contents" id="education">
+                            <ul>
+                               
+                               <li><span>2023</span><br>Bachlor Of Computer Application (BCA)TY</li>
+                               <li><span>2022</span><br>Bachlor Of Computer Application (BCA)SY</li>
+                               <li><span>2021</span><br>Bachlor Of Computer Application (BCA)FY</li>
+                            </ul>   
+                           </div>
+
+
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- -----------------------services----------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+            <div>
+               <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magni earum error animi iure quod odit optio eum molestias nemo?</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magni earum error animi iure quod odit optio eum molestias nemo?</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magni earum error animi iure quod odit optio eum molestias nemo?</p>
+                <a href="#">Learn more</a>
+              </div>
+         </div>
+    </div>
+</div>
+<!-- -------------------Portfolio--------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/soci.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>
+                    The App connnects You to The Talemted people around the World Download it From play Store.
+                </p>
+                <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/app.jpg">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>
+                    The App connnects You to The Talemted people around the World Download it From play Store.
+                </p>
+                <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/img3.jpg">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>
+                    The App connnects You to The Talemted people around the World Download it From play Store.
+                </p>
+                <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>  
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------------contact---------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1> 
+                <p><i class="fa-solid fa-paper-plane"></i> dipakbhise7498@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7498700982</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/dipakbhise.bhise.7"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                   <a href="https://www.instagram.com/dipak_bhise_official_70/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.1007788"><i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <a href="images/dipakcv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i> This website Design by MCA-I Students DIPAK BHISE &copy;copyright reserved @2024. PUNE <i class="fa-solid fa-heart"></i></p>
+        
+    </div>
+</div>
+
+
+
+
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            } 
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+     <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        } 
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+
+
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkV4rFF5LkGwc2jSRbLxzWsqHMB0fB_m-2UTlxQfUg913ZSfep6zYcqoKWmZ2RkPTh/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              msg.innerHTML = "Message Send Successfully"
+              setTimeout(function(){
+                msg.innerHTML=""
+              },5000)
+              form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
