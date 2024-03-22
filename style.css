@@ -34,6 +34,7 @@ body
     align-items:center; 
     position: relative;
     margin-left: 1200px;
+    displ
     
 }
 .myimg img{
@@ -41,7 +42,7 @@ body
     height: 800px;
     position: absolute;
     right: 100px;
-   
+   display: flex;
     object-fit: cover;
 }
 .container
@@ -59,7 +60,7 @@ nav{
     width: 140px;
 
           border: 2px solid white;
-          border-radius: 5px;
+          border-radius: 20px;
           border-top-right-radius: 5px;
           border-bottom-left-radius: 5px;
           border-left: 0px;
