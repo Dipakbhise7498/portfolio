@@ -27,16 +27,18 @@ body
 }
 #header .myimg 
 {
-    /* width: 100px;
-    height: 200px; */
+    width: 100px;  //
+    height: 500px; 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center; 
     position: relative;
+    margin-left: 1200px;
+    
 }
 .myimg img{
     width: 500px;
-    height: 600px;
+    height: 800px;
     position: absolute;
     right: 100px;
    
@@ -55,7 +57,15 @@ nav{
 .logo
 {
     width: 140px;
-}
+
+          border: 2px solid white;
+          border-radius: 5px;
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+          border-left: 0px;
+          border-right: 0px;   
+        border-bottom-color: black; 
+    border-top-color: black;    }
 nav ul li
 {
     display: inline-block;
@@ -375,7 +385,7 @@ form .btn2{
  }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/front1.jpg);
+        background-image: url(images/dipp.png);
     }
     .header-text{
       margin-top:100%;
