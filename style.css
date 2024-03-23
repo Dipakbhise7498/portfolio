@@ -383,13 +383,23 @@ form .btn2{
  nav .fa-solid{
     display: none;
  }
-@media only screen and (max-width:600px){
-    #header{
+@media only screen and (max-width:768px){
+    #header .myimg img{
         background-image: url(images/dipp.png);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 410px;
+       position: absolute;
+       right: 80px;
+       bottom:0;
+       top:340px;
     }
     .header-text{
-      margin-top:100%;
-      font-size: 16px;
+      
+      font-size: 3.2em;
+    
 
     }
     .header-text h1{ 
