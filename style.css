@@ -39,7 +39,7 @@ body
 }
 .myimg img{
     width: 500px;
-    height: 800px;
+    height: 600px;
     position: absolute;
     right: 100px;
    display: flex;
