@@ -36,8 +36,8 @@ body
     margin-left:89%;
 }
 .myimg img{
-    width: 400px;
-    height: 100vh;
+    width: 360px;
+    height: 600px;
     position: absolute;
     right: 100px;
    display: flex;
