@@ -15,7 +15,7 @@ body
 }
 #header
 {
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
      /* background-image: url(images/front1.jpg); 
     background-size: 30% 30%;
@@ -27,19 +27,17 @@ body
 }
 #header .myimg 
 {
-    width: 100px;  //
-    height: 500px; 
-    display: flex;
-    justify-content: center;
+    width: 100px;/
+    height: 100vh; 
+    display:flex;
+    justify-content:center;
     align-items:center; 
-    position: relative;
-    margin-left: 1200px;
-    displ
-    
+    position:relative;
+    margin-left:1150px;
 }
 .myimg img{
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 100vh;
     position: absolute;
     right: 100px;
    display: flex;
