@@ -27,21 +27,22 @@ body
 }
 #header .myimg 
 {
-    width: 100px;/
-    height: 100vh; 
+    width: 100px;
+    height: auto;
     display:flex;
     justify-content:center;
     align-items:center; 
-    position:relative;
-    margin-left:89%;
+    
+    margin-right:40%;
+    
 }
 .myimg img{
     width: 360px;
     height: 600px;
     position: absolute;
-    right: 100px;
-   display: flex;
-    object-fit: cover;
+    right: 300px;
+    top:40px;
+    object-fit:cover;
 }
 .container
 {
